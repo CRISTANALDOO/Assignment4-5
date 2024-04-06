@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main container for the currency converter -->
+    <div class="custom-currency-converter">
+      <div class="converter-container">
+        <div class="header">
+          <p class="title">US Dollar to Canadian Dollar</p>
+          <p class="subtitle">Convert USD to CAD at the real exchange rate.</p>
+        </div>
+         <!-- Input section for amount and converted amount -->
+        <div class="input-section">
+          <div class="amount-input">
+            <label for="usdAmount">Amount</label>
+            <div class="currency-wrapper">
+              <input type="number" id="usdAmount" placeholder="Amount" />
+              <span class="flag"> USD</span>
+            </div>
+          </div>
+          <!-- Exchange icon/button for swapping currencies -->
+          <div class="exchange-icon">
+            <button onclick="swapCurrencies()">↔</button>
+          </div>
+          <!-- Input field for the converted amount -->
+          <div class="converted-amount">
+            <label for="cadAmount">Converted Amount</label>
+            <div class="currency-wrapper">
+              <input type="number" id="cadAmount" placeholder="Amount" />
+              <span class="flag"> CAD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Convert button to trigger the currency conversion -->
+      <button onclick="convertCurrency()" class="convert-button">Convert</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
