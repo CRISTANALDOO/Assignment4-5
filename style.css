@@ -1,0 +1,89 @@
+.custom-currency-converter {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the container that holds the converter content */
+.converter-container {
+  margin-bottom: 20px;
+}
+
+.header {
+  margin-bottom: 10px;
+  background-color: #0d417a;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px; /* Font size for the subtitle */
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+}
+
+/* Styles for amount input and converted amount input */
+.amount-input,
+.converted-amount {
+  flex: 1; /* Take equal space */
+  margin-right: 10px; /* Adds space between inputs */
+}
+
+.currency-wrapper {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.currency-wrapper input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.flag {
+  margin-left: 10px;
+  font-size: 20px;
+  background-color: #14467d;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.exchange-icon button {
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 21px;
+
+}
+
+.convert-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.convert-button:hover {
+  background-color: #0056b3;
+}
